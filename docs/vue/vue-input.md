@@ -3,7 +3,9 @@
 
 ## 1. v-model
 vue原生提供的雙向綁定方法
+
 沒有特殊需求的話這個應該是最快最方便的
+
 但是有時候我們可能不想要雙向綁定，只是想單純取到上面的值
 
 
@@ -26,6 +28,7 @@ let inputValue = ref("");
 
 ## 2. event
 利用事件的方式，如果該input有發生change即發出事件，我們在從事件中抓取要的資料
+其實上面的v-model也是類似於此的實作方式
 
 ```
 <script setup>
@@ -51,12 +54,19 @@ function updateValue(event) {
 
 ## 3. template ref 
 也可以直接抓取DOM上的資料，取得input的值
+
 在vue3中叫做template ref
+
 先定義一個null的ref
+
 在想要綁定的元素上寫`ref=""`
+
 之後即可抓取其DOM資訊
+
 很多時候我們不要他輸入時就改變變數
+
 而是希望按下按鈕後再改動
+
 此時就可以使用這個方法
 
 
