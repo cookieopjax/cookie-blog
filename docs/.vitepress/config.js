@@ -23,6 +23,8 @@ export default {
             // This shows `/guide/index.md` page.
             { text: "Vue的版本與撰寫方式", link: "/vue/vue1.html" }, // /guide/index.md
             { text: "Hello World!", link: "/vue/vue2.html" }, // /guide/one.md
+            { text: "事件與方法", link: "/vue/vue3.html" }, // /guide/index.md
+            { text: "取得input值的3個方法", link: "/vue/vue-input.html" }, // /guide/index.md
           ],
         },
       ],
@@ -37,6 +39,7 @@ export default {
               text: "JavaScript var, let, const差別, Scope, Scope Chain, Closure",
               link: "/code/js0",
             },
+            { text: "C字串處理實用方法", link: "/code/c-string" }, // /guide/index.md
           ],
         },
       ],
