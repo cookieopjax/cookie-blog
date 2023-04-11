@@ -2,19 +2,19 @@
 layout: home
 
 hero:
-  name: 餅乾部落格
-  text: 我的學習心得筆記
-  tagline: 
+  name: 你好! 我是Herman
+  text: 
+  tagline: 我熱衷於軟體開發，喜歡與人分享與交流，藉此碰撞出更多想法。主要的技能集在前端領域，包括Vue, Bootstrap等等 ，也會嘗試去接觸後端，像是Express等等。目前於PMC進行前端網頁工程的實習 ，並在課餘時間做Side Project，持續學習
   image:
     src: /banner.png
     alt: VitePress
   actions:
     - theme: brand
-      text: 開始閱讀
+      text: 關於我
       link: /aboutme
     - theme: alt
-      text: GitHub
-      link: https://github.com/cookieopjax
+      text: 來看看文章
+      link: /articleIndex
   
   layout: home
 
